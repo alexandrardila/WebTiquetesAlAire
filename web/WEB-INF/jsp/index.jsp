@@ -32,7 +32,7 @@
       <ul>
         <li><a href="#"><img src="images/miamiSmall1.jpg" alt="" /></a></li>
         <li><a href="#"><img src="images/miamiSmall2.jpg" alt="" /></a></li>
-        <li class="last"><a href="#"><img src="images/miamiSmall3.jpg" alt="" /></a></li>
+    <li class="last"><a href="#"><img src="images/miamiSmall3.jpg" alt="" /></a></li>
       </ul>
     </div>
     <br class="clear" />
