@@ -1,10 +1,12 @@
 /*!
  * Bootstrap v3.3.4 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+.centered {
+    background-color: teal;
+    text-align: center;
+}
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -78,6 +80,7 @@ sup {
   line-height: 0;
   vertical-align: baseline;
 }
+bt-custom
 sup {
   top: -.5em;
 }
@@ -4602,6 +4605,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #fff !important;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.99);
   -webkit-font-smoothing: antialiased;
+  
 }
 .navbar-inverse .btn-link[disabled]:hover,
 fieldset[disabled] .navbar-inverse .btn-link:hover,

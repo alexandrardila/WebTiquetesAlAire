@@ -6,7 +6,7 @@
 @import url("tables.css");
 
 html{overflow-y:scroll;}
-#myBody{margin-left: 2px; padding:auto ; font-size:12px; font-family:verdana, Arial, Helvetica, sans-serif; color:#525252; background-color:#131313;}
+#myBody{margin-left: 2px; padding:auto ; font-size:16px; font-family:verdana, Arial, Helvetica, sans-serif; color:#525252; background-color:#131313;}
 
 .justify{text-align:justify;}
 .bold{font-weight:bold;}
@@ -60,7 +60,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 
 #latest{padding:20px 0 0 0;}
 #latest .fl_left{display:block; float:left; width:575px; height:300px;}
-#latest .fl_right{display:block; float:right; width:360px; height:280px; padding:10px; color:#333333; background-color:#FDC609;}
+#latest .fl_right{display:block; float:right; width:360px; height:300px; padding:10px; color:#333333; background-color:#FDC609;}
 #latest .fl_right h2, #latest .fl_right p{margin:0 0 12px 0; padding:0; border:none; line-height:normal;}
 #latest .fl_right h2{font-size:30px;}
 #latest .fl_center4 h2{font-size:15px;}
@@ -69,10 +69,10 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 #latest ul li{display:block; float:left; width:100px; height:100px; margin:0 15px 0 0; padding:4px; border:1px solid #333333;}
 #latest ul li.last{margin-right:0; margin-left:0;}
 #latest .fl_center{display:block; float:none; width:500px; height:460px; padding:10px; color:#333333; background-color:#FDC609;}
-#latest .fl_left2{display:block; float:left; width:360px; height:280px; padding:10px; color:#333333; background-color:#FDC609;}
+#latest .fl_left2{display:block; float:left; width:400px; height:280px; padding:10px; color:#333333; background-color:#FDC609;}
 #latest .fl_center2{display:block; float:none; width:942.5px; height:200px; padding:20px; color:#333333; background-color:#FDC609;}
 #latest .fl_center3{display:block; float:none; width:942.5px; height:230px; padding:20px; color:#333333; background-color:#FDC609;}
-#latest .fl_center4{display:block; float:none; width:942.5px; height:460px; padding:20px; color:#333333; background-color:#FDC609;}
+#latest .fl_center4{display:block; float:none; width:942.5px; height:380px; padding:20px; color:#333333; background-color:#FDC609;}
 
 /* ----------------------------------------------Intro------------------------------------- */
 

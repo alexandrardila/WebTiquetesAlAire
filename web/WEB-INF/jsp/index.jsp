@@ -2,6 +2,7 @@
 <head>
 <title>Tiquetes</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="layout/styles/bootstrap/css/bootstrap.css" />
 <link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
 </head>
 <body id="myBody">
@@ -15,8 +16,7 @@
       <ul>
         <li class="active"><a href="redirect.jsp">Inicio</a></li>
         <li><a href="pages/VerOferta.html">Consultar Ofertas</a></li>
-        <li><a href="pages/login.html">Ingresar a mi cuenta</a></li>
-        <li class="last"><a href="pages/contacto.html">Contactenos</a></li>
+        <li class="last"><a href="#sesion" data-toggle="modal">Ingresar a mi cuenta</a></li>
       </ul>
     </div>
     <br class="clear" />
@@ -44,7 +44,7 @@
       <li >
         <h2>Disfrute de londres</h2>
         <div class="imgholder"><a href="#"><img src="images/londres1.jpg"  /></a></div>
-        <p>Londres, capital política y económica del Reino Unido, es una de las ciudades más visitadas del mundo debido a su carácter especial y cosmopolita. Imposible de describir a través de un texto, para conocer Londres es necesario visitarla y vivirla, dejando que el toque especial de la ciudad y sus gentes nos seduzcan a través de su acogedora inmensidad. </p>
+        <p>Londres, capital política y económica del Reino Unido, es una de las ciudades más visitadas del mundo debido a su carácter especial y cosmopolita.Para conocer Londres es necesario visitarla y vivirla, dejando que el toque especial de la ciudad y sus gentes nos seduzcan a través de su acogedora inmensidad. </p>
         <p>Londres tiene algo que engancha y a todos gusta, Londres es diversión, cultura, luces y color.</p>
         <p class="readmore"><a href="#">Seguir leyendo... &raquo;</a></p>
       </li>
@@ -62,10 +62,6 @@
             y 200 millas al sur de Boston. Está en la boca del Río Hudson y se encuentra dividida en cinco distritos o barrios. 
             La Isla Long está al este de la Ciudad de Nueva York y
             el estado de Nueva Jersey está justo al otro lado del Río Hudson, al oeste. </p>
-        <p> La "Gran Manzana", como se le la llama a menudo, es la ciudad más grande de Estados Unidos, con más de 
-            7 millones de residentes. Está llena de una variada mezcla de habitantes, incluyendo inmigrantes de muchos países.
-            Algunos de sus barrios, como Chinatown, la Pequeña Italia y el Harlem español, reflejan la rica herencia cultural de las
-            tierras nativas de sus residentes.</p>
         <p class="readmore"><a href="#">Seguir Leyendo  &raquo;</a></p>
       </li>
     </ul>
@@ -130,5 +126,32 @@
     <br class="clear" />
   </div>
 </div>
+    <div class="modal fade" id="sesion" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4><b>SELECCIONE SU TIPO DE USUARIO</b></h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                            <div class="col-sm-6 col-md-6">
+                                <a href="pages/loginAdmin.html" class="thumbnail">
+                                  <img src="images/admin.jpg" alt="1">
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-md-6">
+                                <a href="pages/login.html" class="thumbnail">
+                                  <img src="images/cliente.jpg" alt="2">
+                                </a>
+                            </div>
+                </div>
+                
+           </div>
+        </div>
+    </div>
+         </div>
+    <script src="layout/styles/bootstrap/js/jquery.js"></script>
+    <script src="layout/styles/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
